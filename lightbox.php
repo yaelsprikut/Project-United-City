@@ -9,7 +9,7 @@ if($_REQUEST['popup']!=''){
 	}
 	if(!empty($img)) $img = "<div class='featuredImg' align='center'>".$img."</div>";
 
-	echo '<h2>'.$postObj->post_title.'</h2>';
+	//echo '<h2>'.$postObj->post_title.'</h2>';
 	echo '<div class="ostContent">'.$img.$postObj->post_content.'</div>';
 	exit;
 }
