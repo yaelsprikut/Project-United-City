@@ -15,7 +15,7 @@
        		    <p class="vsmall pnone">
      		        <span class="mdate alignright"><?php echo the_time(get_option( 'date_format' )) ?></span></p>
 			</div>
-		<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+		<h3><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
          <div class="catpost"><?php the_excerpt(); ?></div>
             
         </div>
