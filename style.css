@@ -30,9 +30,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 *{ padding:0; margin:0;	outline:none; list-style:none; border: 0 none;}
 html {}
-body { font-family: 'Lato', Arial, sans-serif; font-size: 13px; line-height:1.5; color:#000; background: #F6F8F8; width:100%;}
+body { font-family: 'Lato', Arial, sans-serif; font-size: 15px; line-height:1.3; color:#000; background: #F6F8F8; width:100%;}
 
-p{word-spacing:0.1em; padding:10px 0;line-height: 1.9; font-size:13px;font-family: 'Open Sans', Arial, sans-serif;}
+p{word-spacing:0.1em; padding:10px 0;line-height: 1.5; font-size:15px;font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
 
 a{text-decoration:none;}
 .clr , .clear{clear:both;}
@@ -63,9 +63,9 @@ input.text_input:focus,textarea.textarea:focus {border: 1px solid #999;	}
 .center {text-align:center;}
 .wrap {margin:0 auto;}
 
-.container {max-width:1240px; margin:auto; clear:both;}
+.container {max-width:1280px; margin:auto; clear:both;}
 .cat-container,.home-container {overflow:auto;}
-.post-container,.page-container {margin-right: 440px; overflow:auto;} 
+.post-container,.page-container {margin-right: 400px; overflow:auto;} 
 .full-width{margin-right:0px !important; margin-left:0px !important; }
 .entry-content p{padding:10px 20px;}
 .entry-content a{ border-bottom: 1px solid #DDD;}
@@ -160,7 +160,7 @@ max-height: 63px; z-index:999;}
 .mobile-menu {display:none;}
 .primary-menu {
 	float: left;
-	font-size: 0.9rem;
+	font-size: 1.1rem;
 }
 
 .primary-menu li { position: relative; }
@@ -399,7 +399,7 @@ max-height: 63px; z-index:999;}
 07. POSTS & CONTENT STYLES */
 
 .article-header h1{ font-size:41px;}
-#crumbs{margin-bottom: 10px;font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+#crumbs{margin-bottom: 10px;font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
        clear: both; font-size:12px; padding-bottom: 5px; color:#999; border-bottom: 1px solid #F1F1F1;}
 #crumbs a{color:#999;}
 #crumbs a:hover{color:#1e8cbe;}
@@ -446,7 +446,7 @@ code { background: #e8eaee; padding: 0 .375em; }
 .catbox { position: absolute; z-index: 10; bottom: 10px; left: 10px;}   
 .catbox ul li{float:left;display:inline-block;}
 .catbox a, .hcat a:visited { color: #1e8cbe; padding: 2px 8px; margin-right:1px; font-weight: bold;
-font-size: 13px; background-color:#F6F8F8;}
+font-size: 15px; background-color:#F6F8F8;}
 .catpost p{ padding: 0 0 10px 0;}
 
 .cdetail {padding: 20px;}
@@ -458,7 +458,7 @@ font-size: 13px; background-color:#F6F8F8;}
 .singlebox{background-color:#fff; padding:20px;}
 .byline { color: #999;}
 .entry-content ul, .entry-content ol{ margin: 0 15px 15px 20px; padding-left:20px}
-.entry-content  ul li, .entry-content  ol li{font-family: 'Open Sans', Arial, Helvetica, sans-serif; margin-left:10px}
+.entry-content  ul li, .entry-content  ol li{font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; margin-left:10px}
 .entry-content  ul li {list-style: circle;}
 .entry-content  ol li {list-style: decimal;}
 .single-post-thumb { width: 100%;}
@@ -580,7 +580,7 @@ img.alignleft{margin-left:0px;} img.alignright{margin-right:0px;}
 .widget_recent_entries h4{margin-top: 0px; color: #fff; font-weight: normal;font-size: 18px;}
 .widget_recent_entries ul {padding:10px;}
 .widget_recent_entries li{overflow:auto; border-bottom: 1px solid #F1F1F1; margin-bottom: 10px; padding-bottom: 5px;}
-.widget_recent_entries li a { padding:5px 0;font-size: 15px; font-family: 'Open Sans', Arial, Helvetica, sans-serif; color: #fff; font-weight:bold;
+.widget_recent_entries li a { padding:5px 0;font-size: 15px; font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; color: #fff; font-weight:bold;
 float: left;
 width: 100%; }
 
@@ -635,7 +635,7 @@ line-height: 28px; }
 .comment-list .reply { text-decoration: none; float: right; background: #1e8cbe;
                      padding: 3px 6px; color: #fff; border-radius:2px; font-weight: 700; font-size: 0.9em;}
 
-.comment-list .reply a{color:#fff; font-family: 'Open sans', Arial, Helvetica, sans-serif;text-transform: capitalize;}
+.comment-list .reply a{color:#fff; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;text-transform: capitalize;}
 .comment-list .reply:hover, .comment-list .reply:focus { opacity: 0.65; }
   
 /************************
@@ -810,7 +810,7 @@ height: 20px;}
 
 #footer-nav-links { position: relative;  font-size: 12px; text-align:right; }
 #footer-nav-links li {display:inline; margin-right: 10px;}
-#footer-nav-links li a{font-family: 'Open Sans', Arial, Helvetica, sans-serif;font-weight: bold;}
+#footer-nav-links li a{font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;font-weight: bold;}
 
 /* #footer-logo .logo{height: 21px; min-width: 150px; background-repeat: no-repeat;background-size: 147px; background-position: -0px -0px;
 background-image:url(images/sanasar-logo.png);} */
@@ -848,7 +848,7 @@ footer .widget_recent_comments li, footer .widget_rss li{margin:1px !important;}
 
 @media only screen and ( min-width: 1025px ){
 #main-menu{display:block !important;}
-.cat-container article, .home-container article{min-height:532px;}
+.cat-container article, .home-container article{height:460px;}
 #main-nav  #main-menu li a { border-right:1px solid rgba(255,255,255,0.1);}
 #main-nav  #main-menu li:first-child { 
     border-left:1px solid rgba(255,255,255,0.1);
@@ -859,7 +859,7 @@ footer .widget_recent_comments li, footer .widget_rss li{margin:1px !important;}
 @media only screen and ( max-width: 1024px ) and (min-width: 987px){
 .container{/*width:986px;*/ width:100%;}
 .our_team .item{margin:4px !important;}
-.cat-container article, .home-container article{min-height:534px;}
+.cat-container article, .home-container article{min-height:500px;}
 .cdetail .postmeta{width:84%; position:absolute;bottom:10px; }
 .our_authors .item{margin:7.4px;}
 }	
