@@ -450,7 +450,7 @@ font-size: 15px; background-color:#F6F8F8;}
 .catpost p{ padding: 0 0 10px 0;}
 
 .cdetail {padding: 20px;}
-.cdetail  h3, .cdetail  h2{margin:0px; font-size:26px; padding:15px 0; word-wrap:break-word;}
+.cdetail  h3, .cdetail  h2{margin:0px; font-size:24px; padding:10px 0; word-wrap:break-word;}
 .cdetail  h3 a:hover, .cdetail  h2 a:hover{color:#1e8cbe;}
 .cdetail .postmeta{ color:#999;}
 .cdetail .postmeta a{ color:#999;}
@@ -848,7 +848,7 @@ footer .widget_recent_comments li, footer .widget_rss li{margin:1px !important;}
 
 @media only screen and ( min-width: 1025px ){
 #main-menu{display:block !important;}
-.cat-container article, .home-container article{height:460px;}
+.cat-container article, .home-container article{height:430px;}
 #main-nav  #main-menu li a { border-right:1px solid rgba(255,255,255,0.1);}
 #main-nav  #main-menu li:first-child { 
     border-left:1px solid rgba(255,255,255,0.1);
