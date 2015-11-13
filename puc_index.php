@@ -5,17 +5,14 @@
 	<article id="post-<?php the_ID(); ?>" <?php post_class('item-list mbottom'); ?>>
         <div class="cthumb">
             <a href="<?php the_permalink(); ?>">
-			  <?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'medium');} else { ?>
+			  <?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'large');} else { ?>
                 <img src="<?php  echo get_template_directory_uri(); ?>/images/default-image.png" alt="<?php the_title_attribute();  ?>" />
               <?php } ?>
             </a>
         </div>
         <div class="cdetail">
-        <div class="postmeta">
-       		    <p class="vsmall pnone">
-     		        <span class="mdate alignright"><?php echo the_time(get_option( 'date_format' )) ?></span></p>
-			</div>
-		<h3><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
+
+		<h4><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h4>
          <div class="catpost"><?php the_excerpt(); ?></div>
             
         </div>
