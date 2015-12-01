@@ -598,7 +598,7 @@ padding: 20px;}
 .related-articles h4{margin:20px 0px;}
 .related-article:nth-child(3) {margin-right: 0;}
 .related-article img{ height:auto; width:374px; height:199px;}
-.related-article h5{text-align:center;margin-top:0px;}
+.related-article h5{/* text-align:center; */margin-top:0px;}
 .related-article h5 a{color:#333;}
 .related-article h5 a:hover{color: #1e8cbe;}
 /* Scroll to top */
