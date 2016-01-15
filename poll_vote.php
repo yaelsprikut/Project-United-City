@@ -29,16 +29,14 @@ fclose($fp);
 <tr>
 <td>Yes:</td>
 <td>
-<img src="http://www.w3schools.com/php/poll.gif"
-width='<?php echo(100*round($yes/($no+$yes),2)); ?>'>
+
 <?php echo(100*round($yes/($no+$yes),2)); ?>%
 </td>
 </tr>
 <tr>
 <td>No:</td>
 <td>
-<img src="http://www.w3schools.com/php/poll.gif"
-width='<?php echo(100*round($no/($no+$yes),2)); ?>'>
+
 <?php echo(100*round($no/($no+$yes),2)); ?>%
 </td>
 </tr>
