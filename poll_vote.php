@@ -2,7 +2,7 @@
 $vote = $_REQUEST['vote'];
 
 //get content of textfile
-$filename = "poll_result.txt";
+$filename = "https://raw.githubusercontent.com/yaelsprikut/Project-United-City/master/poll_result.txt";
 $content = file($filename);
 
 //put content in array
