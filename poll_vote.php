@@ -29,7 +29,7 @@ fclose($fp);
 <tr>
 <td>Yes:</td>
 <td>
-<img src="poll.gif"
+<img src="http://www.w3schools.com/php/poll.gif"
 width='<?php echo(100*round($yes/($no+$yes),2)); ?>'
 height='20'>
 <?php echo(100*round($yes/($no+$yes),2)); ?>%
@@ -38,7 +38,7 @@ height='20'>
 <tr>
 <td>No:</td>
 <td>
-<img src="http://users.sch.gr/kodulis/ajax/poll/poll.gif"
+<img src="http://www.w3schools.com/php/poll.gif"
 width='<?php echo(100*round($no/($no+$yes),2)); ?>'
 height='20'>
 <?php echo(100*round($no/($no+$yes),2)); ?>%
